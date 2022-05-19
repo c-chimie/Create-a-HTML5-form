@@ -28,35 +28,35 @@
             <div class="row"> <!--row 3-->
                 <div class="col-5">
                     <label for="card">Card #</label><br>
-                    <input type="text" placeholder="XXXXXXXXXXXXX">
+                    <input style="width: 500px;" type="text" placeholder="XXXXXXXXXXXXX">
                 </div>
                 <div class="col-3">
                     <label for="cvc">CVC #</label><br>
-                    <input type="text" placeholder="0000">
+                    <input style="width: 300px;" type="text" placeholder="0000">
                 </div>
                 <div class="col-4">
                     <label for="amount">Amount</label><br>
                     <label for="amount">$</label>
-                    <input type="text" placeholder="Amount">
+                    <input style="width: 380px;" type="text" placeholder="Amount">
                 </div>
                 <div class="row"> <!--row 4-->
                     <div class="col-6">
                         <label for="firstName">First Name</label><br>
-                        <input type="text">
+                        <input style="width: 625px;" type="text">
                     </div>
                     <div class="col-6">
                         <label for="lastName">Last Name</label><br>
-                        <input type="text">
+                        <input style="width: 625px;" type="text">
                     </div>
                 </div>
                 <div class="row"> <!--row 5-->
                     <div class="col-6">
                         <label for="city">City</label><br>
-                        <input type="text">
+                        <input style="width: 625px;" type="text">
                     </div>
                     <div class="col-3">
                         <label for="state">State</label><br>
-                        <select name="state" id="state" placeholder="Pick a state">
+                        <select style="width: 300px; name="state" id="state" placeholder="Pick a state">
                             <option value="pick">Pick a state</option>
                             <option value="FL">Florida</option>
                             <option value="CA">California</option>
@@ -65,27 +65,27 @@
                     </div>
                     <div class="col-3">
                         <label for="postalcode">Postal Code</label><br>
-                        <input type="text">
+                        <input style="width: 300px;" type="text">
                     </div>
                 </div>
                 <div class="row"> <!--row 6-->
                     <div class="col-6">
                     <label for="accept">We accept:</label><br>
-                    <input type="radio" id="mastercard" name="MC" value="MC">
+                    <input type="radio" id="mastercard" name="credit" value="MC">
                     <label for="mastercard"><i class="fa-brands fa-cc-mastercard"></i></label>
-                    <input type="radio" id="Visa" name="visa" value="visa">
+                    <input type="radio" id="Visa" name="credit" value="visa">
                     <label for="Visa"><i class="fa-brands fa-cc-visa"></i></label>
-                    <input type="radio" id="Amex" name="amex" value="amex">
+                    <input type="radio" id="Amex" name="credit" value="amex">
                     <label for="amex"><i class="fa-brands fa-cc-amex"></i></label>
                 </div>
                 <div class="col-6">
                     <label for="message">Message</label><br>
-                    <input type="textarea">
-                    <br><label for="bottom message">Add any notes here.</label>
+                    <input style="width: 625px; height: 100px;" type="textarea">
+                    <br><label style="font-size: 10px; color: gray;" for="bottom message">Add any notes here.</label>
                 </div>
             </div>
                 <div class="row"> <!--row 7-->
-                    <div class="col-12 p-3 mb-2 bg-light text-dark border d-flex justify-content-end">
+                    <div class="col-12 p-3 bg-light text-dark border d-flex justify-content-end">
                         <button type="button" class="btn btn-secondary m-1">Cancel</button> 
                         <button type="button" class="btn btn-primary m-1">Send</button>
                     </div>
